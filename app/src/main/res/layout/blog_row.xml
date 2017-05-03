@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="10dp"
+    card_view:cardUseCompatPadding="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/head_container_post"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorAccent">
+
+            <ImageView
+                android:id="@+id/pin_post"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="25dp"
+                android:src="@drawable/ic_room_black_18dp" />
+
+            <TextView
+                android:id="@+id/header_location_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/pin_post"
+                android:text="location"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/post_photo_d"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/head_container_post"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/post_detail_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:maxLines="5"
+            android:padding="10dp"
+            android:text="Context"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bdbdbd"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"></View>
+
+        <TextView
+            android:id="@+id/header_time_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:layout_marginRight="10dp"
+            android:text="time"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

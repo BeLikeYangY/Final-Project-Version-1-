@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Footage</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="item_one_title">Fiery Soul of the Slayer</string>
+    <string name="item_one_desc">It has often been said that Lina’s hair was touched by fire, though few know the truth of this claim. In Lina’s youth, as her natural talents first began to smoke and smolder it was her fiery hair that told the tale of the storm to come. With time and training, her skill and control of the flame was enough to suppress the searing display. Yet on occasion, when her ire grows and tempers flare, the full measure of Lina’s burning spirit threatens to unleash its wrath.</string>
+    <string name="item_two_title">Manifold Paradox</string>
+    <string name="item_two_desc">With a raspy cackle, the elder smith Craler swung the sword that his family had spent eleven generations to fold and forge. So sharp it was that, with a sound like tearing fabric, a rip in reality tore open. Through this rip, Craler recognized himself from moments before, holding aloft the very same coveted blade. Then, in a fit of greed and madness, he cut this earlier self down to seize the twin sword as his own. Too late, however, Craler felt a familiar wound, and was suddenly filled with the memory of being cut down himself...</string>
+    <string name="item_three_title">Demon Eater</string>
+    <string name="item_three_desc">Shadow Fiend has long collected the souls of his enemies. As is the case with any collector, some prizes have stood above others, to be sought out at any cost. However, there are certain souls that should not be tried, and forces so dark and filled with rage that no being could hope to contain them. Thus did Shadow Fiend learn the price, and gift, that comes with stealing the souls of demons, and he was changed evermore.</string>
+    <string name="item_four_title">Frost Avalanche</string>
+    <string name="item_four_desc">Some say the garment began as the wedding gown of an ancient queen. Others say it was once a battle cloak of a frost ogre. In truth, the enchanted fabric is as malleable as an avalanche, and can mold itself into various forms. This form has attracted a lone wolf pup, who has now become a hardy and loyal companion.</string>
+    <string name="item_five_title">Blades of Voth Domosh</string>
+    <string name="item_five_desc">Set in her vengeance against the abyss, Tresdin approached the baleful armorer Qwyth, who gifted to her these hellbound blades. Though she obtained the swords without cost, she may realize too late that the price extracted for wielding such incredible power could be more than she is willing to part with...</string>
+    <string name="item_six_title">Fractal Horns of Inner Abysm</string>
+    <string name="item_six_desc">Deep in the hell of Hell, Terrorblade lay bound behind fractal walls, sentenced to an eternity of twisted contemplation. He stared long into the reflection of his own worst self. And long did his worst self stare into him. Now they rise together, a single entity more powerful than ever before.</string>
+    <string name="item_seven_title">Swine of the Sunken Galley</string>
+    <string name="item_seven_desc">After months of work, Techies Demolitions proudly unveiled their latest commission: The Swine, the most powerful cannon ever designed. Yet during its first frantic use aboard a homebound galley, the Swine’s awesome blast tore its host ship asunder, rocketing the cannon itself backwards toward the shore. It was found days later, deeply embedded in a rocky cliffside just below its makers’workshop.</string>
+    <string name="item_eight_title">Tempest Helm of the Thundergod</string>
+    <string name="item_eight_desc">Forged by the Hammers of Celestarr and imbued with the energies of the Ancients, this mighty helm feels at home resting across the brow of the Lord of Heaven himself. The faithless shall tremble as true thunder rolls across the fields of battle!</string>
+    <string name="item_nine_title">Great Sage’s Reckoning</string>
+    <string name="item_nine_desc">Though his misdeeds have long been forgiven, the thrills of Sun Wukong’s crimes live on. Relive three legendary trials from his earliest adventures with the Great Sage’s Reckoning.</string>
+    <string name="item_ten_title">Bladeform Legacy</string>
+    <string name="item_ten_desc">Yurnero’s mask has been cleaved in two, awakening the ancient souls that once laid dormant inside it. These spirits have become one with Yurnero, giving him both the wisdom and fury of his ancestors. This symbiotic relationship has transformed the Juggernaut into something new and terrifying... a celestial force of nature.</string>
+</resources>

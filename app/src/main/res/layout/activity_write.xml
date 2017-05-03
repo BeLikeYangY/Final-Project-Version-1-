@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.android.finalproject.WriteActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/map_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="10dp"
+        app:cardPreventCornerOverlap="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/post_image"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:onClick="takePhoto"
+                android:scaleType="fitXY"
+                android:src="@drawable/file"
+                app:riv_corner_radius_top_left="10dp"
+                app:riv_corner_radius_top_right="10dp" />
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/textView1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/ic_room_black_18dp"
+                    android:text="Column 1" />
+
+                <me.grantland.widget.AutofitTextView
+                    android:id="@+id/location_text"
+                    android:layout_margin="4dp"
+                    android:maxLines="2"
+                    android:text="Column 2"
+                    android:textSize="14sp"
+                    autofit:minTextSize="6sp" />
+            </TableRow>
+
+            <EditText
+                android:id="@+id/post_context"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_background"
+                android:gravity="start"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:padding="8dp"
+                android:textSize="15dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/post_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:text="Post"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/delete"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:onClick="pickPhoto"
+                    android:text="Pick"
+                    android:textColor="#FFFFFF" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
